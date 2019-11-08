@@ -93,7 +93,7 @@ class LightCsrfSimpleService
         $events = $this->container->get('events');
         $event = LightEvent::createByContainer($this->container);
         $event->setVar("token", $_SESSION[$this->sessionName]);
-        $events->dispatch("Light_CsrfSimple.on_csrf_token_regenerated");
+        $events->dispatch("Light_CsrfSimple.on_csrf_token_regenerated", $event);
     }
 
 
