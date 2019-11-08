@@ -2,6 +2,7 @@ dependencies:
     Ling: 
         - Chloroform
         - Light
+        - Light_Events
     
 
 post_install: 

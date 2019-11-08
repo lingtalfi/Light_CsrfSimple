@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightCsrfSimpleService::rotate](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L126-L131)
+See the source code for method [LightCsrfSimpleService::rotate](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L160-L165)
 
 
 See Also

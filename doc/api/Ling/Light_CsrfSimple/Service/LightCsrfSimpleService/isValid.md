@@ -55,7 +55,7 @@ Returns bool.
 
 Source Code
 ===========
-See the source code for method [LightCsrfSimpleService::isValid](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L87-L94)
+See the source code for method [LightCsrfSimpleService::isValid](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L109-L116)
 
 
 See Also
@@ -63,5 +63,5 @@ See Also
 
 The [LightCsrfSimpleService](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService.md) class.
 
-Previous method: [regenerate](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/regenerate.md)<br>Next method: [startSession](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/startSession.md)<br>
+Previous method: [regenerate](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/regenerate.md)<br>Next method: [setContainer](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/setContainer.md)<br>
 

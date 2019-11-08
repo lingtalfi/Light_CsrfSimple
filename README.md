@@ -37,6 +37,7 @@ Summary
 - [Light_CsrfSimple api](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple.md) (generated with [DocTools](https://github.com/lingtalfi/DocTools))
 - Pages
     - [Conception notes](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/pages/conception-notes.md)
+    - [Events](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/pages/events.md)
 - [Services](#services)
 - [Related](#related)
 
@@ -58,7 +59,9 @@ Here is an example of the service configuration:
 ```yaml
 csrf_simple:
     instance: Ling\Light_CsrfSimple\Service\LightCsrfSimpleService
-
+    methods:
+        setContainer:
+            container: @container()
 
 # --------------------------------------
 # hooks
@@ -71,6 +74,8 @@ $events.methods_collection:
             listener:
                 instance: @service(csrf_simple)
                 callable_method: onRouteFound
+
+
 
 
 
@@ -87,6 +92,10 @@ Related
 History Log
 =============
 
+- 1.1.0 -- 2019-11-08
+
+    - add event Light_CsrfSimple.on_csrf_token_regenerated
+    
 - 1.0.0 -- 2019-11-07
 
     - initial commit

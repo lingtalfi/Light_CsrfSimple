@@ -13,7 +13,9 @@ https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_Csr
 https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/onRouteFound.md
 https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/regenerate.md
 https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/rotate.md
+https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/setContainer.md
 https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/startSession.md
 https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService.md
 https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple.md
 https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/pages/conception-notes.md
+https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/pages/events.md

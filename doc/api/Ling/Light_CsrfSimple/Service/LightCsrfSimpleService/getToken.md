@@ -46,7 +46,7 @@ Returns string.
 
 Source Code
 ===========
-See the source code for method [LightCsrfSimpleService::getToken](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L59-L63)
+See the source code for method [LightCsrfSimpleService::getToken](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L68-L72)
 
 
 See Also

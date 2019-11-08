@@ -47,7 +47,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightCsrfSimpleService::regenerate](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L71-L75)
+See the source code for method [LightCsrfSimpleService::regenerate](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L80-L97)
 
 
 See Also

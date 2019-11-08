@@ -1,6 +1,6 @@
 Ling/Light_CsrfSimple
 ================
-2019-11-07 --> 2019-11-07
+2019-11-07 --> 2019-11-08
 
 
 
@@ -42,11 +42,13 @@ Table of contents
     - [LightCsrfSimpleService::getToken](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/getToken.md) &ndash; Returns the csrf token value stored in the new slot.
     - [LightCsrfSimpleService::regenerate](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/regenerate.md) &ndash; Regenerates a new token, and moves the replaced token to the old slot.
     - [LightCsrfSimpleService::isValid](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/isValid.md) &ndash; Returns whether the given token is valid.
+    - [LightCsrfSimpleService::setContainer](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/doc/api/Ling/Light_CsrfSimple/Service/LightCsrfSimpleService/setContainer.md) &ndash; Sets the container.
 
 
 Dependencies
 ============
 - [Chloroform](https://github.com/lingtalfi/Chloroform)
 - [Light](https://github.com/lingtalfi/Light)
+- [Light_Events](https://github.com/lingtalfi/Light_Events)
 
 

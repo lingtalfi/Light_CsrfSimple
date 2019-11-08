@@ -1,6 +1,8 @@
 csrf_simple:
     instance: Ling\Light_CsrfSimple\Service\LightCsrfSimpleService
-
+    methods:
+        setContainer:
+            container: @container()
 
 # --------------------------------------
 # hooks

@@ -5,7 +5,9 @@ namespace Ling\Light_CsrfSimple\Service;
 
 
 use Ling\Light\Events\LightEvent;
+use Ling\Light\ServiceContainer\LightServiceContainerInterface;
 use Ling\Light\Tool\LightTool;
+use Ling\Light_Events\Service\LightEventsService;
 
 
 /**
@@ -22,6 +24,12 @@ class LightCsrfSimpleService
      */
     private $sessionName;
 
+    /**
+     * This property holds the container for this instance.
+     * @var LightServiceContainerInterface
+     */
+    protected $container;
+
 
     /**
      * Builds the LightCsrfSimpleService instance.
@@ -29,6 +37,7 @@ class LightCsrfSimpleService
     public function __construct()
     {
         $this->sessionName = "light_csrf_simple";
+        $this->container = null;
     }
 
 
@@ -70,8 +79,21 @@ class LightCsrfSimpleService
      */
     public function regenerate()
     {
+
         $this->startSession();
         $this->rotate();
+
+
+        //--------------------------------------------
+        // DISPATCHING AN EVENT
+        //--------------------------------------------
+        /**
+         * @var $events LightEventsService
+         */
+        $events = $this->container->get('events');
+        $event = LightEvent::createByContainer($this->container);
+        $event->setVar("token", $_SESSION[$this->sessionName]);
+        $events->dispatch("Light_CsrfSimple.on_csrf_token_regenerated");
     }
 
 
@@ -94,6 +116,18 @@ class LightCsrfSimpleService
     }
 
 
+    //--------------------------------------------
+    //
+    //--------------------------------------------
+    /**
+     * Sets the container.
+     *
+     * @param LightServiceContainerInterface $container
+     */
+    public function setContainer(LightServiceContainerInterface $container)
+    {
+        $this->container = $container;
+    }
 
 
     //--------------------------------------------

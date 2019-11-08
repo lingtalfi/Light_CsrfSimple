@@ -61,7 +61,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [LightCsrfSimpleService::onRouteFound](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L45-L50)
+See the source code for method [LightCsrfSimpleService::onRouteFound](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L54-L59)
 
 
 See Also
