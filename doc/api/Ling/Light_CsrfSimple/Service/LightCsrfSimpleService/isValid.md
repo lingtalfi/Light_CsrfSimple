@@ -55,7 +55,7 @@ Returns bool.
 
 Source Code
 ===========
-See the source code for method [LightCsrfSimpleService::isValid](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L109-L116)
+See the source code for method [LightCsrfSimpleService::isValid](https://github.com/lingtalfi/Light_CsrfSimple/blob/master/Service/LightCsrfSimpleService.php#L120-L127)
 
 
 See Also

@@ -92,6 +92,10 @@ Related
 History Log
 =============
 
+- 1.2.0 -- 2019-11-08
+
+    - add LightCsrfSimpleService->getOldToken
+
 - 1.1.1 -- 2019-11-08
 
     - fix functional typo, event Light_CsrfSimple.on_csrf_token_regenerated not dispatched

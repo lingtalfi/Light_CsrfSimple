@@ -71,6 +71,17 @@ class LightCsrfSimpleService
         return $_SESSION[$this->sessionName]['new'];
     }
 
+    /**
+     * Returns the csrf token value stored in the old slot.
+     *
+     * @return string
+     */
+    public function getOldToken(): string
+    {
+        $this->startSession();
+        return $_SESSION[$this->sessionName]['old'];
+    }
+
 
     /**
      * Regenerates a new token, and moves the replaced token to the old slot.
