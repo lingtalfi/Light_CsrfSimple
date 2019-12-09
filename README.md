@@ -84,6 +84,7 @@ $events.methods_collection:
 
 Related
 ===========
+- [Light_CsrfSession plugin](https://github.com/lingtalfi/Light_CsrfSession) (preferred because simpler to develop with)
 - [Light_Csrf](https://github.com/lingtalfi/Light_Csrf), a more complex/secure csrf protection plugin
 
 
@@ -92,6 +93,10 @@ Related
 History Log
 =============
 
+- 1.2.1 -- 2019-12-09
+
+    - update Related section in README.md
+    
 - 1.2.0 -- 2019-11-08
 
     - add LightCsrfSimpleService->getOldToken
