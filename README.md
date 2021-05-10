@@ -100,6 +100,10 @@ History Log
 
 
 
+- 1.2.15 -- 2021-05-10
+
+    - Fix assets missing.
+
 - 1.2.14 -- 2021-05-10
 
     - Fix assets missing.
