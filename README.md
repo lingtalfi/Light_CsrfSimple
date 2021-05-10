@@ -98,6 +98,23 @@ Related
 History Log
 =============
 
+
+- 1.2.9 -- 2021-05-10
+
+    - Fix assets missing.
+
+- 1.2.9 -- 2021-05-10
+
+    - Fix assets missing.
+
+- 1.2.9 -- 2021-05-10
+
+    - Fix assets missing.
+
+- 1.2.9 -- 2021-05-10
+
+    - Fix assets missing.
+
 - 1.2.8 -- 2021-05-03
 
     - Update dependencies to Ling.Light_Events (pushed by SubscribersUtil)
