@@ -100,6 +100,10 @@ History Log
 
 
 
+- 1.2.11 -- 2021-05-10
+
+    - Fix assets missing.
+
 - 1.2.10 -- 2021-05-10
 
     - Fix assets missing (commit test2).
