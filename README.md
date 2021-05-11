@@ -99,34 +99,10 @@ History Log
 =============
 
 
+  
+- 1.2.9 -- 2021-05-11
 
-- 1.2.15 -- 2021-05-10
-
-    - Fix assets missing.
-
-- 1.2.14 -- 2021-05-10
-
-    - Fix assets missing.
-
-- 1.2.13 -- 2021-05-10
-
-    - Fix assets missing.
-
-- 1.2.12 -- 2021-05-10
-
-    - Fix assets missing.
-
-- 1.2.11 -- 2021-05-10
-
-    - Fix assets missing.
-
-- 1.2.10 -- 2021-05-10
-
-    - Fix assets missing (commit test2).
-
-- 1.2.9 -- 2021-05-10
-
-    - test commit
+    - checkpoint commit
   
 - 1.2.8 -- 2021-05-03
 
